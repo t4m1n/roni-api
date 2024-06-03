@@ -44,6 +44,7 @@ class RegisterController extends Controller
             'alamat'            => $request->alamat,
             'tgl_lhr'           => $request->tgl_lhr,
             'nama_keluarga'     => $request->nama_keluarga,
+            'jkel'              => $request->jkel,
         ]);
 
         //return response JSON user is created
