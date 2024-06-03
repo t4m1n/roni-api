@@ -27,6 +27,7 @@ class RegisterController extends Controller
             'alamat'        => 'required',
             'tgl_lhr'       => 'required|date',
             'nama_keluarga' => 'required',
+            'jkel'          => 'required'
         ]);
 
         //if validation fails
