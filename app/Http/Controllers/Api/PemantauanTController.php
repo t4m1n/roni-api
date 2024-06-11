@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\PemantauanChild;
+use App\Models\PemantauanParent;
 use App\Models\PemantauanT;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -16,22 +17,38 @@ class PemantauanTController extends Controller
     public function index(Request $request)
     {
         $userId = $request->user()->id;
+        $parent = PemantauanParent::get();
 
-        $data = PemantauanChild::join('pemantauan_parents', 'pemantauan_childs.pemantauanparentid', '=', 'pemantauan_parents.id')
-            ->leftJoin('pemantauan_t', function ($join) use ($userId) {
-                $join->on('pemantauan_childs.id', '=', 'pemantauan_t.pemantauanchildid')
-                    ->where('pemantauan_t.statusenabled', '=', 1)
-                    ->where('pemantauan_t.userid', '=', $userId);
-            })
-            ->where('pemantauan_childs.statusenabled', 1)
-            ->select('pemantauan_childs.*', 'pemantauan_parents.description', 'pemantauan_t.norec', 'pemantauan_t.status', 'pemantauan_t.userid')
-            ->get();
+        $data = [];
+
+        foreach ($parent as $key => $value) {
+            $data[] = [
+                'parent' => $value,
+                'child' => $this->childs($userId, $value->id)
+            ];
+        }
 
         return response()->json([
             'success' => true,
             'message' => 'Success load data',
             'data'  => $data,
         ], 200);
+    }
+
+    public function childs($userId, $parent)
+    {
+        $data = PemantauanChild::join('pemantauan_parents', 'pemantauan_childs.pemantauanparentid', '=', 'pemantauan_parents.id')
+            ->leftJoin('pemantauan_t', function ($join) use ($userId, $parent) {
+                $join->on('pemantauan_childs.id', '=', 'pemantauan_t.pemantauanchildid')
+                    ->where('pemantauan_t.statusenabled', '=', 1)
+                    ->where('pemantauan_childs.pemantauanparentid', '=', $parent)
+                    ->where('pemantauan_t.userid', '=', $userId);
+            })
+            ->where('pemantauan_childs.statusenabled', 1)
+            ->select('pemantauan_childs.*', 'pemantauan_parents.description', 'pemantauan_t.norec', 'pemantauan_t.status', 'pemantauan_t.userid')
+            ->get();
+
+        return $data;
     }
 
 
