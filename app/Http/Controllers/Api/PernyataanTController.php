@@ -20,6 +20,22 @@ class PernyataanTController extends Controller
             ->where('statusenabled', 1)
             ->first();
 
+        if (!$data) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Success load data',
+                'data'  => [
+                    "norec" => null,
+                    "statusenabled" => null,
+                    "userid" => $userId,
+                    "status" => 0,
+                    "created_at" => null,
+                    "updated_at" => null
+                ],
+            ], 200);
+            die();
+        }
+
         return response()->json([
             'success' => true,
             'message' => 'Success load data',
