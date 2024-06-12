@@ -46,6 +46,7 @@ class PemantauanTController extends Controller
             })
             ->where('pemantauan_childs.statusenabled', 1)
             ->select('pemantauan_childs.*', 'pemantauan_t.norec', 'pemantauan_t.status', 'pemantauan_t.userid')
+            ->orderBy('pemantauan_childs.id', 'ASC')
             ->get();
 
         return $data;
