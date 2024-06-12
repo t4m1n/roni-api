@@ -45,7 +45,7 @@ class PemantauanTController extends Controller
                     ->where('pemantauan_t.userid', '=', $userId);
             })
             ->where('pemantauan_childs.statusenabled', 1)
-            ->select('pemantauan_childs.*', 'pemantauan_parents.description', 'pemantauan_t.norec', 'pemantauan_t.status', 'pemantauan_t.userid')
+            ->select('pemantauan_childs.*', 'pemantauan_t.norec', 'pemantauan_t.status', 'pemantauan_t.userid')
             ->get();
 
         return $data;
