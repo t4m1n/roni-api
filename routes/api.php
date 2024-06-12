@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\BeritaController;
 use App\Http\Controllers\Api\ContentController;
 use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\Api\LogoutController;
@@ -54,6 +55,10 @@ Route::middleware(['auth:api'])->group(function () {
             Route::get('/', [PernyataanTController::class, 'index'])->name('pemantauan-pernyataan-index');
             Route::post('/', [PernyataanTController::class, 'store'])->name('pemantauan-pernyataan-store');
         });
+    });
+
+    Route::group(['prefix' => 'berita'], function () {
+        Route::get('/', [BeritaController::class, 'index'])->name('berita-index');
     });
 });
 
