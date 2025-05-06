@@ -8,6 +8,7 @@ use App\Http\Controllers\Api\PemantauanController;
 use App\Http\Controllers\Api\PemantauanTController;
 use App\Http\Controllers\Api\PernyataanTController;
 use App\Http\Controllers\Api\RegisterController;
+use App\Http\Controllers\UserAccessLogController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -59,6 +60,10 @@ Route::middleware(['auth:api'])->group(function () {
 
     Route::group(['prefix' => 'berita'], function () {
         Route::get('/', [BeritaController::class, 'index'])->name('berita-index');
+    });
+
+    Route::group(['prefix' => 'history'], function () {
+        Route::get('/', [UserAccessLogController::class, 'index'])->name('history-index');
     });
 });
 
