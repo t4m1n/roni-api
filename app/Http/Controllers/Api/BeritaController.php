@@ -172,7 +172,7 @@ class BeritaController extends Controller
                             "description" => "Meskipun bisa dicegah dan diobati, tuberkulosis paru tetap menjadi masalah kesehatan utama di Indonesia.",
                             "url" => "https://www.sehatindonesia.id/berita/tbc2025",
                             "urlToImage" => "https://www.sehatindonesia.id/images/tbc_penyuluhan.jpg",
-                            "publishedAt" => "2025-05-07T08:00:00Z",
+                            "publishedAt" => "2025-05-07",
                             "content" => "Tuberkulosis paru masih menjadi tantangan besar dalam dunia kesehatan di Indonesia. Menurut data Kemenkes, Indonesia menduduki peringkat kedua kasus TBC terbanyak di dunia. Penyakit ini menular melalui udara dan bisa menyerang siapa saja. Gejala umum meliputi batuk lebih dari dua minggu, demam, dan penurunan berat badan. Pencegahan bisa dilakukan dengan vaksinasi BCG, menjaga kebersihan lingkungan, dan memperkuat imunitas tubuh. Pemerintah kini mendorong deteksi dini melalui program nasional 'TOSS TBC' untuk Temukan, Obati Sampai Sembuh."
                         ],
                         [
@@ -185,7 +185,7 @@ class BeritaController extends Controller
                             "description" => "Deteksi dini tuberkulosis paru dapat menurunkan angka kematian secara signifikan.",
                             "url" => "https://www.antaranews.com/berita/4732257/kemenkes-deteksi-889-ribu-orang-yang-terkena-tb-per-maret-2025",
                             "urlToImage" => "https://www.antaranews.com/images/tbc_deteksi_dini.jpg",
-                            "publishedAt" => "2025-03-24T12:32:00Z",
+                            "publishedAt" => "2025-03-24",
                             "content" => "Kementerian Kesehatan telah mendeteksi sebanyak 889 ribu kasus tuberkulosis pada awal Maret 2025, yang merupakan 81% dari target deteksi 2024 sebesar 1.090.000 orang. Deteksi dini melalui skrining aktif dan integrasi data dengan rumah sakit serta puskesmas menjadi strategi utama untuk menekan angka kematian akibat TBC."
                         ],
                         [
@@ -198,7 +198,7 @@ class BeritaController extends Controller
                             "description" => "Pengembangan vaksin baru menjadi harapan dalam memerangi tuberkulosis paru.",
                             "url" => "https://www.reuters.com/business/healthcare-pharmaceuticals/indonesia-ramps-up-fight-against-tuberculosis-amid-concerns-economic-impact-2024-06-10/",
                             "urlToImage" => "https://www.reuters.com/images/vaksin_tbc.jpg",
-                            "publishedAt" => "2024-06-10T10:00:00Z",
+                            "publishedAt" => "2024-06-10",
                             "content" => "Indonesia berencana melakukan uji klinis untuk beberapa vaksin tuberkulosis, termasuk vaksin dari GlaxoSmithKline dan BioNTech. Pengembangan vaksin baru diharapkan dapat mengurangi angka kematian akibat TBC yang mencapai sekitar 134.000 orang pada tahun 2022."
                         ],
                         [
@@ -211,7 +211,7 @@ class BeritaController extends Controller
                             "description" => "Peringatan Hari TBC Sedunia 2025 menjadi momentum untuk memperkuat komitmen bersama dalam mengakhiri tuberkulosis.",
                             "url" => "https://www.tbindonesia.or.id/semarakan-hari-tbc-sedunia-2025-melalui-gerakan-indonesia-akhiri-tuberkulosis-dengan-komitmen-dan-aksi-nyata-giatkan/",
                             "urlToImage" => "https://www.tbindonesia.or.id/images/giatkan_tbc.jpg",
-                            "publishedAt" => "2025-03-24T08:00:00Z",
+                            "publishedAt" => "2025-03-24",
                             "content" => "Tema nasional peringatan Hari TBC Sedunia 2025 adalah 'GIATKAN: Gerakan Indonesia Akhiri Tuberkulosis dengan Komitmen dan Aksi Nyata'. Pemerintah mengajak seluruh lapisan masyarakat untuk berperan aktif dalam upaya eliminasi TBC pada tahun 2030 melalui komitmen bersama, investasi berkelanjutan, dan aksi nyata."
                         ],
                         [
@@ -224,8 +224,9 @@ class BeritaController extends Controller
                             "description" => "Pemanfaatan teknologi menjadi salah satu strategi dalam mempercepat eliminasi tuberkulosis.",
                             "url" => "https://kemkes.go.id/id/rilis-kesehatan/47510",
                             "urlToImage" => "https://kemkes.go.id/images/teknologi_tbc.jpg",
-                            "publishedAt" => "2025-03-25T",
-                            "content" => ""
+                            "publishedAt" => "2025-03-25",
+                            "content" => "Pemanfaatan teknologi menjadi salah satu strategi dalam mempercepat eliminasi tuberkulosis.",
+                            "url" => "https://kemkes.go.id/id/rilis-kesehatan/47510"
                         ]
                     ]
                 ]
@@ -245,7 +246,7 @@ class BeritaController extends Controller
                             "description" => "Gaya hidup berperan penting dalam mencegah penyakit menular seperti TBC paru.",
                             "url" => "https://www.lifestyleplus.id/artikel/gayahidupcegahTBC",
                             "urlToImage" => "https://www.lifestyleplus.id/images/tbc_lifestyle.jpg",
-                            "publishedAt" => "2025-05-07T09:30:00Z",
+                            "publishedAt" => "2025-05-07",
                             "content" => "Gaya hidup sehat menjadi salah satu benteng alami dalam mencegah infeksi tuberkulosis paru. Nutrisi seimbang, olahraga teratur, dan tidur cukup dapat memperkuat sistem imun tubuh agar tidak mudah tertular TBC. Dengan perubahan sederhana dalam keseharian, masyarakat bisa ikut menekan angka kasus TBC."
                         ],
                         [
@@ -258,7 +259,7 @@ class BeritaController extends Controller
                             "description" => "Menjaga sirkulasi udara dan paparan cahaya alami di rumah sangat penting untuk mencegah penyebaran TBC.",
                             "url" => "https://www.hidupsehat.id/gayahidup/udara-matahari-vs-tbc",
                             "urlToImage" => "https://www.hidupsehat.id/images/ventilasi_tbc.jpg",
-                            "publishedAt" => "2025-04-18T08:45:00Z",
+                            "publishedAt" => "2025-04-18",
                             "content" => "Ruangan yang lembab dan pengap menjadi tempat favorit bagi bakteri penyebab TBC berkembang. Pastikan rumah memiliki ventilasi baik dan pencahayaan alami yang cukup. Menjemur kasur dan membuka jendela setiap hari dapat membantu mengurangi risiko penularan TBC di lingkungan keluarga."
                         ],
                         [
@@ -271,7 +272,7 @@ class BeritaController extends Controller
                             "description" => "Merokok terbukti memperlemah paru dan meningkatkan risiko terkena TBC.",
                             "url" => "https://www.lifestylefit.id/kampanye/stop-rokok-tbc",
                             "urlToImage" => "https://www.lifestylefit.id/images/rokok_tbc.jpg",
-                            "publishedAt" => "2025-02-28T13:00:00Z",
+                            "publishedAt" => "2025-02-28",
                             "content" => "Merokok tidak hanya merusak paru-paru, tetapi juga meningkatkan kerentanan tubuh terhadap infeksi TBC. Zat kimia dalam rokok melemahkan mekanisme pertahanan saluran pernapasan. Berhenti merokok adalah langkah gaya hidup sehat yang langsung mengurangi risiko penularan dan kambuhnya TBC."
                         ],
                         [
@@ -284,7 +285,7 @@ class BeritaController extends Controller
                             "description" => "Nutrisi yang tepat mempercepat penyembuhan pasien TBC paru.",
                             "url" => "https://www.gizilife.id/artikel/makanan-sehat-pasien-tbc",
                             "urlToImage" => "https://www.gizilife.id/images/makanan_tbc.jpg",
-                            "publishedAt" => "2025-03-10T10:10:00Z",
+                            "publishedAt" => "2025-03-10",
                             "content" => "Konsumsi makanan tinggi protein seperti telur, ikan, dan kacang-kacangan sangat dianjurkan bagi pasien tuberkulosis. Nutrisi yang cukup membantu tubuh memperbaiki jaringan yang rusak dan meningkatkan daya tahan. Selain itu, pasien juga dianjurkan menghindari makanan olahan dan tinggi gula."
                         ],
                         [
@@ -297,7 +298,7 @@ class BeritaController extends Controller
                             "description" => "Ketahanan mental memainkan peran penting dalam keberhasilan pengobatan TBC.",
                             "url" => "https://www.mindwell.id/artikel/meditasi-untuk-pasien-tbc",
                             "urlToImage" => "https://www.mindwell.id/images/meditasi_tbc.jpg",
-                            "publishedAt" => "2025-04-01T07:50:00Z",
+                            "publishedAt" => "2025-04-01",
                             "content" => "Proses penyembuhan TBC memerlukan ketekunan dan kestabilan mental. Rasa stres dan kecemasan bisa menurunkan imunitas. Meditasi, yoga, dan teknik pernapasan terbukti membantu pasien lebih fokus dalam pengobatan. Dukungan dari keluarga dan lingkungan juga penting dalam mempercepat pemulihan."
                         ]
                     ]
@@ -318,7 +319,7 @@ class BeritaController extends Controller
                             "description" => "Komisi IX DPR RI usulkan regulasi baru agar penanganan tuberkulosis lebih terintegrasi dan efektif.",
                             "url" => "https://www.politiknews.id/berita/revisiUU_TBC",
                             "urlToImage" => "https://www.politiknews.id/images/dpr_rapat_tbc.jpg",
-                            "publishedAt" => "2025-05-07T11:00:00Z",
+                            "publishedAt" => "2025-05-07",
                             "content" => "Dalam rapat kerja bersama Kemenkes, DPR mengusulkan revisi UU Kesehatan untuk memperkuat kebijakan TBC. Tujuannya adalah mempercepat deteksi dini, pengobatan gratis, serta koordinasi lintas sektor. Legislasi ini ditargetkan rampung sebelum akhir 2025."
                         ],
                         [
@@ -331,7 +332,7 @@ class BeritaController extends Controller
                             "description" => "Pemerintah menyatakan perang terhadap tuberkulosis sebagai bagian dari visi Indonesia Sehat 2030.",
                             "url" => "https://www.setneg.go.id/berita/pidato-presiden-tbc2030",
                             "urlToImage" => "https://www.setneg.go.id/images/presiden_tbc.jpg",
-                            "publishedAt" => "2025-04-17T10:15:00Z",
+                            "publishedAt" => "2025-04-17",
                             "content" => "Dalam Sidang Tahunan MPR, Presiden menyebut TBC sebagai 'musuh dalam selimut' yang perlu ditangani bersama. Komitmen nasional diarahkan pada peningkatan anggaran, layanan kesehatan primer, dan kerja sama global. Target Indonesia bebas TBC pada 2030 tetap menjadi prioritas utama."
                         ],
                         [
@@ -344,7 +345,7 @@ class BeritaController extends Controller
                             "description" => "Pemerintah menaikkan anggaran penanggulangan TBC dalam RAPBN 2025, dengan fokus pada daerah padat dan miskin.",
                             "url" => "https://www.keuangannegara.id/berita/anggaran-tbc-naik-2025",
                             "urlToImage" => "https://www.keuangannegara.id/images/anggaran_tbc.jpg",
-                            "publishedAt" => "2025-05-01T09:00:00Z",
+                            "publishedAt" => "2025-05-01",
                             "content" => "RAPBN 2025 menetapkan kenaikan anggaran program TBC sebesar 30%. Dana ini dialokasikan untuk pengadaan obat, kampanye edukasi, dan pelatihan petugas kesehatan di daerah endemis seperti Papua, NTT, dan Jawa Barat. Langkah ini diharapkan mempercepat eliminasi TBC secara merata."
                         ],
                         [
@@ -357,7 +358,7 @@ class BeritaController extends Controller
                             "description" => "Indonesia memimpin kerja sama ASEAN untuk mengatasi tuberkulosis lintas batas negara.",
                             "url" => "https://www.aseanupdate.id/berita/aliansi-tbc-asean",
                             "urlToImage" => "https://www.aseanupdate.id/images/asean_tbc.jpg",
-                            "publishedAt" => "2025-03-26T14:00:00Z",
+                            "publishedAt" => "2025-03-26",
                             "content" => "Indonesia menjadi ketua inisiatif ASEAN+ untuk penanggulangan TBC lintas batas, bekerja sama dengan WHO dan Global Fund. Fokusnya adalah harmonisasi data, distribusi obat lintas negara, dan penguatan sistem rujukan regional. Upaya ini juga menjadi diplomasi kesehatan strategis Indonesia di kawasan."
                         ],
                         [
@@ -370,7 +371,7 @@ class BeritaController extends Controller
                             "description" => "Pemerintah daerah mulai ambil peran aktif dalam eliminasi tuberkulosis dengan deklarasi dan alokasi dana khusus.",
                             "url" => "https://www.politikdaerah.id/berita/komitmen-daerah-bebas-tbc",
                             "urlToImage" => "https://www.politikdaerah.id/images/bupati_tbc.jpg",
-                            "publishedAt" => "2025-04-04T08:20:00Z",
+                            "publishedAt" => "2025-04-04",
                             "content" => "Di Kabupaten Kendal, Bupati dan DPRD menandatangani nota kesepakatan komitmen 'TBC Bebas 2028'. Mereka menjanjikan dukungan APBD untuk pemeriksaan gratis, pelacakan kasus, dan pembangunan klinik TBC. Model ini diharapkan ditiru daerah lain di Indonesia."
                         ]
                     ]
