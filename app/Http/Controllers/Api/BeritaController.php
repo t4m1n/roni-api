@@ -156,7 +156,7 @@ class BeritaController extends Controller
         //     ]
         // ];
 
-        $data = '{"parent" : {
+        $data = '[{"parent" : {
                     "id" : 1,
                     "description" : "Kesehatan",
                     "child" : [
@@ -1422,7 +1422,7 @@ class BeritaController extends Controller
                     "content": "If you click Accept all, we and our partners, including 240 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
                     }
                     ]
-                }}';
+                }}]';
 
         // Dekode string JSON menjadi array PHP
         $array = json_decode($data, true);
