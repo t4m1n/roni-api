@@ -19,6 +19,10 @@ class BeritaController extends Controller
                     "description" => "Kesehatan",
                     "child" => [
                         [
+                            "source" => [
+                                "id" => 1,
+                                "name" => "journals.plos.org"
+                            ],
                             "author" => "Mehmood Ahmad, Naeem Rasool, Rana Muhammad Zahid Mushtaq, Sammina Mahmood, Abdur Rauf Khalid, Waqas Ahmad, Bilal Mahmood Beg, Mostafa A. Abdel Maksoud, Abdul Aziz Alamri, Adeel Sattar",
                             "title" => "Understanding the impact of moxifloxacin on immune function: Findings from cytokine analyses and immunological assays in mice",
                             "description" => "(1) Background: Moxifloxacin (MXF) is a fluorinated quinolone antibiotic used most commonly due to its broad spectrum of activity. However, the immunomodulatory effects of MXF remain underexplored. This study aims to investigate the patterns of immunomodulato…",
@@ -29,7 +33,7 @@ class BeritaController extends Controller
                         ],
                         [
                             "source" => [
-                                "id" => null,
+                                "id" => 2,
                                 "name" => "Plos.org"
                             ],
                             "author" => "Mani Kalaivani, Chitralok Hemraj, Varhlunchhungi Varhlunchhungi, Lakshmy Ramakrishnan, Sumit Malhotra, Sanjeev Kumar Gupta, Raman Kumar Marwaha, Ransi Ann Abraham, Monika Arora, Tina Rawal, Maroof Ahmad Khan, Aditi Sinha, Nikhil Tandon",
@@ -42,7 +46,7 @@ class BeritaController extends Controller
                         ],
                         [
                             "source" => [
-                                "id" => null,
+                                "id" => 3,
                                 "name" => "Fair Observer"
                             ],
                             "author" => "Imran Khalid",
@@ -63,7 +67,7 @@ class BeritaController extends Controller
                     "child" => [
                         [
                             "source" => [
-                                "id" => "breitbart-news",
+                                "id" => 4,
                                 "name" => "Breitbart News"
                             ],
                             "author" => "Patrick K. O'Donnell, Patrick K. O'Donnell",
@@ -75,6 +79,10 @@ class BeritaController extends Controller
                             "content" => "This week marks the 250th anniversary of the Battles of Lexington and Concord and the start of the Revolutionary War. Farmers, tradesmen, laborers, and mariners–Americans of all stripescame together … [+17237 chars]"
                         ],
                         [
+                            "source" => [
+                                "id" => 5,
+                                "name" => "ra.co"
+                            ],
                             "author" => null,
                             "title" => "Nazar - Demilitarize",
                             "description" => "Following his breakthrough 2020 debut, Nazar returns to Hyperdub with a vocal-led and personal record that wrestles with fractured ambient kuduro.",
@@ -85,7 +93,7 @@ class BeritaController extends Controller
                         ],
                         [
                             "source" => [
-                                "id" => null,
+                                "id" => 6,
                                 "name" => "Toronto Star"
                             ],
                             "author" => "Sarah Murdoch Special To The Star",
@@ -106,7 +114,7 @@ class BeritaController extends Controller
                     "child" => [
                         [
                             "source" => [
-                                "id" => null,
+                                "id" => 7,
                                 "name" => "Lithub.com"
                             ],
                             "author" => "Steven W. Thrasher",
@@ -118,6 +126,10 @@ class BeritaController extends Controller
                             "content" => "Its not at every memorial where mourners are not just handed a program of the service, but also given a pamphlet on how to have safe gay sex in a time of disease.\r\nThen again, Joseph Sonnabend (1933-… [+11931 chars]"
                         ],
                         [
+                            "source" => [
+                                "id" => 8,
+                                "name" => "www.newsweek.com"
+                            ],
                             "author" => "Theo Burman",
                             "title" => "DOGE: What Did Elon Musk Get Done in 100 Days?",
                             "description" => "Musk has been the defining figure of the second Trump administration, though his time in the White House may be coming to an end.",
@@ -128,7 +140,7 @@ class BeritaController extends Controller
                         ],
                         [
                             "source" => [
-                                "id" => null,
+                                "id" => 9,
                                 "name" => "GlobeNewswire"
                             ],
                             "author" => "EBC Tech Limited",
