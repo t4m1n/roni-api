@@ -15,4 +15,9 @@ class UserAccessLog extends Model
         'method',
         'user_agent',
     ];
+
+    protected $casts = [
+        'id' => 'integer',
+        'userId' => 'integer'
+    ];
 }
