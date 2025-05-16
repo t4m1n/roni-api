@@ -19,5 +19,11 @@ class PemantauanT extends Model
         'status'
     ];
 
+    protected $casts = [
+        'statusenabled' => 'integer',
+        'pemantauanchildid' => 'integer',
+        'status' => 'integer',
+    ];
+
     public $timestamps = true;
 }

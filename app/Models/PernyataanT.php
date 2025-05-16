@@ -17,4 +17,9 @@ class PernyataanT extends Model
         'userid',
         'status'
     ];
+
+    protected $casts = [
+        'statusenabled' => 'integer',
+        'status' => 'integer',
+    ];
 }

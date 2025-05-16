@@ -18,4 +18,10 @@ class PemantauanChild extends Model
         'description',
         'sequence',
     ];
+
+    protected $casts = [
+        'statusenabled' => 'integer',
+        'sequence' => 'integer',
+        'pemantauanparentid' => 'integer'
+    ];
 }
