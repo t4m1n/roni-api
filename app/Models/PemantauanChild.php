@@ -20,8 +20,12 @@ class PemantauanChild extends Model
     ];
 
     protected $casts = [
+        'id' => 'integer',
         'statusenabled' => 'integer',
         'sequence' => 'integer',
-        'pemantauanparentid' => 'integer'
+        'pemantauanparentid' => 'integer',
+        'norec' => 'integer',
+        'userid' => 'integer',
+        'status' => 'integer'
     ];
 }
