@@ -62,15 +62,6 @@ class BeritaController extends Controller
                     "description" => "Life Style",
                     "child" => [
                         [
-                            "author" => null,
-                            "title" => "Nazar - Demilitarize",
-                            "description" => "Following his breakthrough 2020 debut, Nazar returns to Hyperdub with a vocal-led and personal record that wrestles with fractured ambient kuduro.",
-                            "url" => "https://ra.co/reviews/36273",
-                            "urlToImage" => "https://static.ra.co/images/reviews/2025/nazar-demilitarize-cover.jpg",
-                            "publishedAt" => "2025-04-25T09:00:00Z",
-                            "content" => "\u003Cul\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003EFollowing his breakthrough 2020 debut, Nazar returns to Hyperdub with a vocal-led and personal record that wrestles with fractured ambient kuduro.\u003C/li\u003E\u003Cli\u003E\r\n\u003C/li\u003E\u003Cl… [+5674 chars]"
-                        ],
-                        [
                             "source" => [
                                 "id" => "breitbart-news",
                                 "name" => "Breitbart News"
@@ -82,6 +73,15 @@ class BeritaController extends Controller
                             "urlToImage" => "https://media.breitbart.com/media/2025/04/Battle_of_Lexington_painting-640x335.jpeg",
                             "publishedAt" => "2025-04-19T12:00:07Z",
                             "content" => "This week marks the 250th anniversary of the Battles of Lexington and Concord and the start of the Revolutionary War. Farmers, tradesmen, laborers, and mariners–Americans of all stripescame together … [+17237 chars]"
+                        ],
+                        [
+                            "author" => null,
+                            "title" => "Nazar - Demilitarize",
+                            "description" => "Following his breakthrough 2020 debut, Nazar returns to Hyperdub with a vocal-led and personal record that wrestles with fractured ambient kuduro.",
+                            "url" => "https://ra.co/reviews/36273",
+                            "urlToImage" => "https://static.ra.co/images/reviews/2025/nazar-demilitarize-cover.jpg",
+                            "publishedAt" => "2025-04-25T09:00:00Z",
+                            "content" => "\u003Cul\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003EFollowing his breakthrough 2020 debut, Nazar returns to Hyperdub with a vocal-led and personal record that wrestles with fractured ambient kuduro.\u003C/li\u003E\u003Cli\u003E\r\n\u003C/li\u003E\u003Cl… [+5674 chars]"
                         ],
                         [
                             "source" => [
@@ -105,6 +105,19 @@ class BeritaController extends Controller
                     "description" => "Politik",
                     "child" => [
                         [
+                            "source" => [
+                                "id" => null,
+                                "name" => "Lithub.com"
+                            ],
+                            "author" => "Steven W. Thrasher",
+                            "title" => "Urgent Lessons From a Heroic Early AIDS Doctor: On the Legacy of Joseph Sonnabend",
+                            "description" => "It’s not at every memorial where mourners are not just handed a program of the service, but also given a pamphlet on how to have safe gay sex in a time of disease. Then again, Joseph Sonnabend (1933-2021) was not just any doctor. Dr. Sonnabend—or “Joe” as mos…",
+                            "url" => "https://lithub.com/urgent-lessons-from-a-heroic-early-aids-doctor-on-the-legacy-of-joseph-sonnabend/",
+                            "urlToImage" => "https://s26162.pcdn.co/wp-content/uploads/2025/04/joseph-sonnabend.jpg",
+                            "publishedAt" => "2025-04-24T12:17:25Z",
+                            "content" => "Its not at every memorial where mourners are not just handed a program of the service, but also given a pamphlet on how to have safe gay sex in a time of disease.\r\nThen again, Joseph Sonnabend (1933-… [+11931 chars]"
+                        ],
+                        [
                             "author" => "Theo Burman",
                             "title" => "DOGE: What Did Elon Musk Get Done in 100 Days?",
                             "description" => "Musk has been the defining figure of the second Trump administration, though his time in the White House may be coming to an end.",
@@ -125,19 +138,6 @@ class BeritaController extends Controller
                             "urlToImage" => "https://ml.globenewswire.com/Resource/Download/5524516f-39bf-47df-9440-42674a2eaf1e",
                             "publishedAt" => "2025-04-28T11:06:00Z",
                             "content" => "WASHINGTON, April 28, 2025 (GLOBE NEWSWIRE) -- As the world marks World Malaria Day 2025 under the theme Malaria Ends With Us: Reinvest, Reimagine, Reignite, EBC Financial Group (EBC) is renewing its… [+11549 chars]"
-                        ],
-                        [
-                            "source" => [
-                                "id" => null,
-                                "name" => "Lithub.com"
-                            ],
-                            "author" => "Steven W. Thrasher",
-                            "title" => "Urgent Lessons From a Heroic Early AIDS Doctor: On the Legacy of Joseph Sonnabend",
-                            "description" => "It’s not at every memorial where mourners are not just handed a program of the service, but also given a pamphlet on how to have safe gay sex in a time of disease. Then again, Joseph Sonnabend (1933-2021) was not just any doctor. Dr. Sonnabend—or “Joe” as mos…",
-                            "url" => "https://lithub.com/urgent-lessons-from-a-heroic-early-aids-doctor-on-the-legacy-of-joseph-sonnabend/",
-                            "urlToImage" => "https://s26162.pcdn.co/wp-content/uploads/2025/04/joseph-sonnabend.jpg",
-                            "publishedAt" => "2025-04-24T12:17:25Z",
-                            "content" => "Its not at every memorial where mourners are not just handed a program of the service, but also given a pamphlet on how to have safe gay sex in a time of disease.\r\nThen again, Joseph Sonnabend (1933-… [+11931 chars]"
                         ]
                     ]
                 ]
