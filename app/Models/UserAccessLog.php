@@ -18,6 +18,6 @@ class UserAccessLog extends Model
 
     protected $casts = [
         'id' => 'integer',
-        'userId' => 'integer'
+        'user_id' => 'integer'
     ];
 }
