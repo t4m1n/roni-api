@@ -21,9 +21,9 @@ class RegisterController extends Controller
         $validator = Validator::make($request->all(), [
             'name'          => 'required',
             'email'         => 'required|email|unique:users',
-            'password'      => 'required|min:8|confirmed',
+            // 'password'      => 'required|min:8|confirmed',
             'nik'           => 'required|unique:users',
-            'nohp'          => 'required|unique:users',
+            // 'nohp'          => 'required|unique:users',
             'alamat'        => 'required',
             'tgl_lhr'       => 'required|date',
             'nama_keluarga' => 'required',
