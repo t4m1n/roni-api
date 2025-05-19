@@ -36,18 +36,19 @@ class LoginController extends Controller
         $credentials = $request->only('nohp', 'password');
 
         //if auth failed
-        if(!$token = auth()->guard('api')->attempt($credentials)) {
+        if (!$token = auth()->guard('api')->attempt($credentials)) {
             return response()->json([
                 'success' => false,
-                'message' => 'Email atau Password Anda salah'
+                'request' => $request->nohp . ' ' . $request->nohp,
+                'message' => 'No. HP atau Password Anda salah'
             ], 400);
         }
 
         //if auth success
         return response()->json([
             'success' => true,
-            'user'    => auth()->guard('api')->user(),    
-            'token'   => $token   
+            'user'    => auth()->guard('api')->user(),
+            'token'   => $token
         ], 200);
     }
 }
