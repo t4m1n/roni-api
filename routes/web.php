@@ -21,5 +21,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('ronilanding');
+    return redirect()->away('https://roniapp.my.canva.site/');
 });
