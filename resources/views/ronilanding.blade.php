@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Machine Learning Workshop</title>
-    <meta property="og:title" content="Machine Learning Workshop" />
-    <meta property="og:description" content="School for Machines Who Can't Learn Good and Want to Do Other Stuff Good Too" />
-    <meta property="og:image" content="http://www.machinelearningworkshop.com/image/all.png" />
-    <meta property="og:image:alt" content="Black and white line drawing of refrigerator, french door refrigerator, range, washer, fan, microwave, vaccuum, space heater and air conditioner" />
+    <title>RONI App</title>
+    <meta property="og:title" content="RONI App (Konkordansi Obat Interaktif)" />
+    <meta property="og:description" content="RONI App (Konkordansi Obat Interaktif)" />
+    <meta property="og:image" content="https://roni.api.fiqartamin.my.id/public/storage/fitur.png" />
+    <meta property="og:image:alt" content="RONI App (Konkordansi Obat Interaktif)" />
     <meta http-equiv="refresh" content="2;url=https://roniapp.my.canva.site/" />
     <script>
         setTimeout(function () {
