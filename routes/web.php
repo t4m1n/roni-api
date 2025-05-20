@@ -20,6 +20,10 @@ use Illuminate\Support\Facades\Route;
 //     ], 200);
 // });
 
+// Route::get('/', function () {
+//     return redirect()->away('https://roniapp.my.canva.site/');
+// });
+
 Route::get('/', function () {
-    return redirect()->away('https://roniapp.my.canva.site/');
+    return view('ronilanding');
 });
