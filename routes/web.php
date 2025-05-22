@@ -27,3 +27,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('ronilanding');
 });
+
+Route::get('/cek', function () {
+    return response()->json([
+        'success' => true,
+        'message' => "Welcome RONI API",
+    ], 200);
+});
